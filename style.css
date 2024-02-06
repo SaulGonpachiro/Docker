@@ -60,7 +60,7 @@ a{
       font-weight: 700;
       cursor: pointer;
       transition: background-color 0.3s ease;
-      
+      font-size: 115%;
     }
   
       .signIn {
@@ -105,10 +105,6 @@ a{
         font-size:450%
       }
 
-      .textoTitle p {
-        text-align: center;
-        color: #fff;
-      }
       #title button {
         background: linear-gradient(94deg, rgba(203,174,238,1) 31%, rgba(233,176,148,1) 100%);
         border: 2px solid rgb(202, 202, 202);
@@ -120,6 +116,7 @@ a{
         font-weight: 700;
         cursor: pointer;
         transition: background-color 0.3s ease;
+        font-size: 105%;
       }
 
       .buttonTitle {
@@ -131,3 +128,69 @@ a{
         color: #fff;
         font-size:150%
       }
+
+      #body1 p {
+        text-align: center;
+        background: linear-gradient(rgb(14, 5, 65),rgb(119, 169, 213));
+          -webkit-background-clip: text; /* Esto es para aplicarle el degradado solo al texto*/
+          color: transparent;  
+          font-size:150%
+      }
+
+      #body1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      #body1 h2 {
+        text-align: center;
+        color: #000000;
+        font-size:350%
+      }
+
+      #body1 > div > #texto {
+        text-align: center;
+        font-size: 125%;
+        color: #000000;
+    }
+    
+    .botones2 {
+      display: flex;
+      justify-content: flex-end;
+      width: 1000px;
+      gap: 12px;
+      
+    }
+  
+    .botones2 button {
+      width: 130px;
+      height: 50px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-size: 115%;
+    }
+    
+    .build {
+      background: linear-gradient(90deg, rgb(55, 0, 255) 0%, rgb(55, 0, 255) 73%, rgb(55, 0, 255) 100%);
+      border: 2px solid rgb(232, 230, 230);
+      color: #ffffff;
+    }
+    .share {
+      background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 73%, rgb(255, 255, 255) 100%);
+      border: 2px solid rgb(196, 194, 194);
+      color: #000000;
+    }
+    .run {
+      background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 73%, rgb(255, 255, 255) 100%);
+      border: 2px solid rgb(196, 194, 194);
+      color: #000000;
+    }
+    .verify {
+      background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 73%, rgb(255, 255, 255) 100%);
+      border: 2px solid rgb(196, 194, 194);
+      color: #000000;
+    }

@@ -1,0 +1,23 @@
+* [33mcommit 1b8db5b398c7b4f295d8032215f1d05be5a66d60[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+[31m|[m Author: Saul <saulmartinezjardines@gmail.com>
+[31m|[m Date:   Tue Feb 6 11:27:35 2024 +0100
+[31m|[m 
+[31m|[m     Añadido gitignore
+[31m|[m 
+* [33mcommit cbc013282ec96406c42ee7cc6f50b2f80cfb5c48[m[33m ([m[1;31morigin/main[m[33m)[m
+[31m|[m Author: Saul <saulmartinezjardines@gmail.com>
+[31m|[m Date:   Tue Feb 6 11:05:52 2024 +0100
+[31m|[m 
+[31m|[m     Docker 1.2
+[31m|[m 
+* [33mcommit 404d6212b6ce7fbd9f3add5b4dffb4d8527bae76[m
+[31m|[m Author: Saul <saulmartinezjardines@gmail.com>
+[31m|[m Date:   Wed Jan 24 20:26:10 2024 +0100
+[31m|[m 
+[31m|[m     Docker 1.1
+[31m|[m 
+* [33mcommit ea98db7346bd6f30acc42a1e58ed272d883f7b9a[m
+  Author: Saul <saulmartinezjardines@gmail.com>
+  Date:   Wed Jan 24 19:47:23 2024 +0100
+  
+      practicaDocker
