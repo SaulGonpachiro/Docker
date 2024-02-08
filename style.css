@@ -161,14 +161,17 @@ a{
         color: #000000;
     }
     
+    #body2 {
+      display: flex;
+      justify-content: center;
+    }
+    
     .botones2 {
       display: flex;
-      justify-content: flex-end;
-      width: 1000px;
+      justify-content: center;
       gap: 12px;
-      
     }
-  
+    
     .botones2 button {
       width: 130px;
       height: 50px;
@@ -178,8 +181,7 @@ a{
       cursor: pointer;
       transition: background-color 0.3s ease;
       font-size: 115%;
-    }
-    
+    }    
     .build {
       background: linear-gradient(90deg, rgb(55, 0, 255) 0%, rgb(55, 0, 255) 73%, rgb(55, 0, 255) 100%);
       border: 2px solid rgb(232, 230, 230);
@@ -210,10 +212,10 @@ a{
     }
     #body3 {
       display: flex;
-      justify-content: space-between; /* Alinear elementos al inicio y al final del contenedor */
-      align-items: center; /* Centrar verticalmente los elementos */
+      justify-content: space-between; 
+      align-items: center; 
       text-align: left;
-      margin-top: 50px; /* Ajusta este valor según sea necesario */
+      margin-top: 50px; 
     }
     #body3 h2 {
       color: #0b214a;
@@ -230,9 +232,69 @@ a{
         margin-left: 70px;
     }
     #body3 > div {
-      max-width: 70%; /* Limitar el ancho del contenedor del texto para que no interfiera con la imagen */
+      max-width: 70%; 
     }
     
     #body3 img {
-      max-width: 85%; /* Limitar el ancho de la imagen para que no ocupe todo el espacio */
+      max-width: 85%; 
+    }
+    #body4 p {
+      text-align: center;
+      background: linear-gradient(rgb(14, 5, 65),rgb(119, 169, 213));
+        -webkit-background-clip: text; /* Esto es para aplicarle el degradado solo al texto*/
+        color: transparent;  
+        font-size:150%
+    }
+
+    #body4 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    #body4 h2 {
+      text-align: center;
+      color: #000000;
+      font-size:350%
+    }
+
+    #body4 > div > #texto {
+      text-align: center;
+      font-size: 120%;
+      color: #000000;
+    }
+    #body5 {
+      display: flex;
+      justify-content: center;
+    }
+    
+    #body5 div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap; 
+    }
+    
+    #body5 img {
+      margin: 0; 
+      max-width: 100%; 
+    }
+    #body6 h2 {
+      text-align: left;
+      background: linear-gradient(rgb(14, 5, 65),rgb(119, 169, 213));
+        -webkit-background-clip: text; 
+        color: transparent;  
+        font-size:350%
+    }
+
+    #body6 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    #body6 p {
+      text-align: left;
+      color: #00084d;
+      font-size:100%
+    }
+    #body6 > div > #20M {
     }
