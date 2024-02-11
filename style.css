@@ -777,6 +777,84 @@ color: gray;
   float: left;
 }
 
+#body15{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+#body15 > .Docker > image {
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+}
+
+
+#body16 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#body16 > div > .Products > .Titulo{
+  color: #000000;
+  margin-bottom: 5%;
+}
+#body16 > div > .Developers > .Titulo{
+  color: #000000;
+  font-size: 100%;
+  font-weight: 100%;
+}
+#body16 > div > .Products > .Titulo{
+  color: #000000;
+  font-size: 100%;
+}
+#body16 > div > .Pricing > .Titulo{
+  color: #000000;
+  font-size: 100%;
+}
+#body16 > div > .Blog > .Titulo{
+  color: #000000;
+  font-size: 100%;
+}
+#body16 > div > .Company > .Titulo{
+  color: #000000;
+  font-size: 100%;
+}
+
+#body16 ol {
+  list-style-type: none;
+  padding: 80;
+  color: gray;
+  margin-top: -5%;
+  margin-bottom: 10%;
+}
+
+#body16 ol li {
+  margin-bottom: 10px;
+}
+
+#body16 > div {
+  display: flex;
+  margin-left: 70px; /* Ajusta el margen entre las listas */
+}
+
+#body17 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  float: right;
+  margin-right: 23%;
+  margin-top: -6%;
+}
+#body17 > div > .Languages > .Titulo{
+  color: #000000;
+  font-size: 100%;
+}
+#body17 ol {
+  list-style-type: none;
+  padding: 80;
+  color: gray;
+  margin-top: -5%;
+  margin-bottom: 10%;
+}
+
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 1000px) {
