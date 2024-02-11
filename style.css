@@ -7,10 +7,6 @@ body {
   font-family: Open Sans,Arial,sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
 header {
   display: flex;
   flex-direction: row;
@@ -855,6 +851,36 @@ color: gray;
   margin-bottom: 10%;
 }
 
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.redes img {
+  width: 30px;
+  height: auto;
+  margin-right: -80px; /* Separación entre las imágenes */
+  margin-left: 100px; /* Separación de la izquierda */
+}
+
+.central {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.boton button {
+  background-color: #ffffff;
+  color: #021bff;
+  border: 1px solid #021bff; /* borde azul */
+  padding: 10px 20px;
+  cursor: pointer;
+}
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 1000px) {
@@ -1011,5 +1037,107 @@ color: gray;
     width: 150px;
     height: 40px;
     font-size: 14px;
+  }
+
+  #body11 > div > .AWS > img,
+  #body11 > div > .A > img,
+  #body11 > div > .JFROG > img {
+  margin-left: 0%;
+  }
+
+  #body11 > div > .AWS > p,
+  #body11 > div > .A > p,
+  #body11 > div > .JFROG > p {
+  margin-left: 0%;
+  }
+
+  #body11 .logos {
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  #body11 .logos2 {
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  #body12 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #body12 h2 {
+    font-size: 120%;
+    margin-left: 0px;
+  }
+
+  #body12 h3 {
+    font-size: 200%;
+    margin-left: 0px;
+  }
+
+  #body13 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #body13 ol {
+    margin-top: 10px;
+  }
+
+  #body13 > div {
+    margin-left: 0px;
+  }
+
+  #body14 h3 {
+    margin-left: 0%;
+  }
+
+  #body14 p {
+    margin-left: 0%;
+  }
+
+  #body15 > .Docker > img {
+    margin-left: 0%;
+  }
+
+  #body16 > div {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0%;
+  }
+
+  #body16 ol {
+    margin-top: 10px;
+  }
+
+  #body17 {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0%;
+    margin-top: -6%;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .redes img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .central {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .boton button {
+    margin-top: 10px;
   }
 }
