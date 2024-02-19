@@ -452,6 +452,8 @@ ul li a:hover {
   justify-content: center;
   flex-direction: column;
   margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 0% 0% 100% 100% / 50% 50% 30% 30%;
 }
 
 #body10 h3 {
@@ -486,6 +488,7 @@ ul li a:hover {
   background-color: #040933;
   border-radius: 0% 0% 100% 100% / 50% 50% 30% 30%;
   padding: 50px;
+  
 }
 
 #body11 h3 {
@@ -997,6 +1000,15 @@ footer {
   #body5 img {
     max-width: 100%;
   }
+  #body6 {
+    display: flex;
+    flex-direction: column; /* Cambiar a un diseño de columna en dispositivos móviles */
+    align-items: center; /* Centrar elementos */
+  }
+
+  #body6 div {
+    margin-bottom: 20px; /* Espacio entre los divs */
+  }
 
   #body6 h2 {
     font-size: 300%;
@@ -1006,10 +1018,6 @@ footer {
   #body6 p {
     font-size: 120%;
     margin-left: 0px;
-  }
-
-  #body6 > div > div {
-    text-align: center; 
   }
 
   #body7 {
