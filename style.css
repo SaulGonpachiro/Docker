@@ -921,6 +921,7 @@ footer {
   #body11 .logos2 img {
     margin: 10px 0; /* Añadir un espacio entre las imágenes */
   }
+
   /* Estilos del footer */
   footer {
     flex-direction: column;
@@ -1073,14 +1074,13 @@ footer {
   }
 
   ol {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
+    display: block; /* Cambiamos a un estilo de bloque para que se muestre verticalmente */
+    margin-top: 10px; /* Añadimos un espacio arriba */
+    padding-left: 20px; /* Añadimos sangría izquierda para que coincida con los elementos de la lista */
   }
 
   ol li {
-    margin: 10px 0;
+    margin: 10px 0; /* Ajustamos el margen vertical */
   }
 
   .botones button {
